@@ -30,7 +30,7 @@ public class Person2 {
 		String randomized = "";
 		StringBuilder str = new StringBuilder(input);
 		while (str.length() > 0) {
-			int randIndex = (int) (Math.random() * input.length());
+			int randIndex = (int) (Math.random() * str.length());
 			randomized += str.charAt(randIndex);
 			str.deleteCharAt(randIndex);
 		}
