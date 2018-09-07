@@ -12,7 +12,7 @@ jar {
   manifest {
     attributes 'Implementation-Title': 'M2',
       'Implementation-Version': version,
-      'Main-Class': 'edu.gatech.oad.antlab.pkg1',
+      'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain',
       'Class-Path': 'lib/resources.jar'
   }
 }
